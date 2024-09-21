@@ -1,0 +1,104 @@
+/* index.css */
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    text-align: right;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 1.5em;
+    color: #fff;
+    background-color: #444;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+button:active {
+    background-color: #666;
+}
+
+.Ac {
+    background-color: #f44336;
+    width: 140px;
+}
+
+.divide,.multiply{
+    margin-left: 1.5px;
+}
+.Ac:hover {
+    background-color: #e53935;
+}
+
+.Ac:active {
+    background-color: #d32f2f;
+}
+
+.operator {
+    background-color: #ff9800;
+}
+
+.operator:hover {
+    background-color: #fb8c00;
+}
+
+.operator:active {
+    background-color: #f57c00;
+}
+
+.zero {
+width: 140px;
+}
+
+.equale {
+    background-color: #4caf50;
+    
+}
+
+.equale:hover {
+    background-color: #43a047;
+}
+
+.equale:active {
+    background-color: #388e3c;
+}
+#output{
+font-size: 22px;
+}
